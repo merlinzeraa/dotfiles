@@ -27,13 +27,21 @@ To ensure everything works as intended, make sure you have the following install
 *   **Fonts**: `IosevkaTerm Nerd Font` (highly recommended for the icons in Polybar).
 
 ## 🚀 Installation
-
-1.  Clone this repository:
+1.  Install dependencies:
+Ubuntu/Debian
+```bash
+sudo apt update && sudo apt install -y i3-wm polybar rofi kitty picom dunst fastfetch maim xclip i3lock-fancy copyq nitrogen dex
+```
+you'll also need to install rofi power menu
+[rofi-power-menu](https://github.com/jluttine/rofi-power-menu)
+and IosevkaTerm Nerd Font
+[Nerd Fonts] (https://www.nerdfonts.com/font-downloads)
+2.  Clone this repository:
     ```bash
     git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
     ```
 
-2.  Copy or symlink the configurations to your `~/.config` directory:
+3.  Copy or symlink the configurations to your `~/.config` directory:
     ```bash
     cp -r ~/dotfiles/.config/* ~/.config/
     ```
