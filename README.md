@@ -1,7 +1,5 @@
-# My Dotfiles
-
-A collection of my configuration files for a minimalist and productive Linux environment.
-
+# merlincsh dotfiles
+these are my configs for my ubuntu + i3 setup
 ## 📁 Contents
 
 This repository contains configurations for the following tools:
@@ -18,7 +16,7 @@ This repository contains configurations for the following tools:
 
 To ensure everything works as intended, make sure you have the following installed:
 
-*   **Window Manager**: `i3-wm` (or `i3-gaps`)
+*   **Window Manager**: `i3`
 *   **Bar**: `polybar`
 *   **Launcher**: `rofi`, `rofi-power-menu`
 *   **Terminal**: `kitty`
@@ -40,16 +38,5 @@ To ensure everything works as intended, make sure you have the following install
     cp -r ~/dotfiles/.config/* ~/.config/
     ```
     *Note: Be careful not to overwrite your existing configurations!*
-
-## ⌨️ Keybindings (i3wm)
-
-*   `Mod4 + Return`: Open Kitty terminal.
-*   `Mod4 + d`: Open Rofi (Application Launcher).
-*   `Mod4 + Shift + q`: Close focused window.
-*   `Mod4 + m`: Power menu.
-*   `Mod4 + Shift + s`: Screenshot (select area).
-*   `Mod4 + l`: Lock screen.
-*   `Mod4 + v`: Clipboard manager (CopyQ).
-
 ---
 Created with ❤️ by Merlin.
