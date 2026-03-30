@@ -1,0 +1,40 @@
+[global]
+    ### Display ###
+    # The background color of the notification window.
+    background = "#0f1222"
+
+    # The foreground color of the notification window.
+    foreground = "#e3feef"
+
+    # The color of the frame around the notification window.
+    # Using your original Magenta accent.
+    frame_color = "#9573f5"
+
+    # Use your White/Blue-Grey for the separator
+    separator_color = "#434d7b"
+
+    # Font and geometry
+    font = Monospace 10
+    frame_width = 2
+    corner_radius = 0
+    padding = 10
+    horizontal_padding = 10
+
+[urgency_low]
+    background = "#0f1222"
+    foreground = "#8d9cf6"
+    frame_color = "#2d3452"
+    timeout = 5
+
+[urgency_normal]
+    background = "#0f1222"
+    foreground = "#e3feef"
+    frame_color = "#9573f5"
+    timeout = 10
+
+[urgency_critical]
+    background = "#0f1222"
+    foreground = "#ffffff"
+    # Using your Pink for critical alerts
+    frame_color = "#f882ff"
+    timeout = 0

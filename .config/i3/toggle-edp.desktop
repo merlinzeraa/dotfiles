@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Toggle eDP-1
+Comment=Toggles the internal display on and off
+Exec=$HOME/.config/i3/toggle_edp.sh
+Icon=display
+Terminal=false
+Categories=System;Settings;

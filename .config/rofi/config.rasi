@@ -1,0 +1,78 @@
+* {
+    /* Map your palette to Rofi variables */
+    bg:          #0f1222; /* background */
+    bg-alt:      #2d3452; /* color0 */
+    fg:          #e3feef; /* foreground */
+    accent:      #b39af5; /* color6 (Cyan) */
+    urgent:      #f4b5fb; /* color1 (Red/Pink) */
+
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+window {
+    width:            30%;
+    border:           0px;
+    border-color:     @accent;
+    border-radius:    0px;
+    padding:          0px;
+}
+
+mainbox {
+    spacing:          10px;
+    children:         [ inputbar, listview ];
+}
+
+inputbar {
+    spacing:          0;
+    text-color:       @fg;
+    padding:          8px;
+    background-color: @bg;
+    border-radius:    0px;
+}
+
+prompt {
+    spacing:          0;
+    text-color:       @accent;
+    font:             "Bold 12";
+}
+
+entry {
+    spacing:          0;
+    text-color:       @fg;
+    placeholder:      " Search apps...";
+    placeholder-color: #434d7b; /* color7 */
+}
+
+listview {
+    fixed-height:     0;
+    border:           0;
+    spacing:          2px;
+    scrollbar:        false;
+    lines:            8;
+}
+
+element {
+    padding:          8px;
+    border-radius:    0px;
+}
+
+element normal.normal {
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+element selected.normal {
+    background-color: @accent;
+    text-color:       @bg; /* Invert text for contrast */
+}
+
+element alternate.normal {
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
