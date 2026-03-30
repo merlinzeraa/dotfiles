@@ -38,7 +38,7 @@ and IosevkaTerm Nerd Font
 [Nerd Fonts] (https://www.nerdfonts.com/font-downloads)
 2.  Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
+    git clone https://github.com/merlinzeraa/dotfiles.git ~/dotfiles
     ```
 
 3.  Copy or symlink the configurations to your `~/.config` directory:
