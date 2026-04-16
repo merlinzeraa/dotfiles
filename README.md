@@ -1,16 +1,15 @@
 # merlincsh dotfiles
 these are my configs for my ubuntu + i3 setup
-## 📁 Contents
+## contents
 
-This repository contains configurations for the following tools:
-
-*   **i3wm**: Tiling window manager.
-*   **polybar**: Status bar.
-*   **rofi**: Application launcher and power menu.
-*   **kitty**: GPU-accelerated terminal emulator.
-*   **dunst**: Lightweight notification daemon.
-*   **picom**: X11 compositor (for transparency and shadows).
-*   **fastfetch**: System information tool.
+configs for:
+*   **i3wm**
+*   **polybar**
+*   **rofi**
+*   **kitty**
+*   **dunst**
+*   **picom**
+*   **fastfetch**
 
 ## 🛠️ Dependencies
 
